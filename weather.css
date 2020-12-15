@@ -1,0 +1,29 @@
+*{
+  margin:0;
+  padding:0;
+}
+html{
+  font-family: 'Roboto', sans-serif;
+}
+header{
+  background-color: rgb(9, 9, 209);
+  padding:0.5em;
+}
+#city{
+  width:50%;
+  font-size: 1.7em;
+  border-radius:7px;
+  border:none;
+  padding:0.1em;
+}
+#city:focus{
+  outline:none;
+}
+#display{
+  width:50%;
+  height:15em;
+  box-shadow: 0px 15px 30px rgba(0,0,0,0.15);
+  border-radius: 10px;
+  margin-top:5em;
+  padding-top:0.5em;
+}
